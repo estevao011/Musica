@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos sobre Música</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .video {
+            background-color: #fff;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .video h2 {
+            color: #007BFF;
+        }
+        .video iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Catálogo de Vídeos sobre Música</h1>
+
+    <div class="video">
+        <h2>Música 1</h2>
+        <iframe src="https://www.youtube.com/embed/CRCQ6Btlllc" allowfullscreen></iframe>
+        <p><a href="https://www.youtube.com/watch?v=CRCQ6Btlllc" target="_blank">Assistir no YouTube</a></p>
+    </div>
+
+    <div class="video">
+        <h2>Música 2</h2>
+        <iframe src="https://www.youtube.com/embed/TStTMNLo7FI" allowfullscreen></iframe>
+        <p><a href="https://www.youtube.com/watch?v=TStTMNLo7FI" target="_blank">Assistir no YouTube</a></p>
+    </div>
+
+</body>
+</html>
